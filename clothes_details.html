@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> COLORFUL HANGER | New Colection Online </title>
+    <meta name="description" content="Latest trend is clothing for women, men & kids at Colorful Hanger online. Find new arrivals, fashion catalogs collections & lookooks every week.">
+
+    <link rel="stylesheet" href="libs/bootstrap-4.4.1.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="libs/jquery-3.4.1.min.js"></script>
+    <script src="libs/popper-1.16.0.min.js"></script>
+    <script src="libs/bootstrap-4.4.1.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/clothes_details.js"></script>
+</head>
+<body class="m-0 p-0">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <button
+            class="navbar-toggler navbar-left p-0 border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#side-menu"
+            aria-controls="side-menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&nbsp;</span>
+        </button>
+
+        <a class="navbar-brand" href="javascript:goHome();">Colorful Hanger</a>
+
+        <div class="collapse navbar-collapse" id="side-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:checkout();">LOGIN OR REGISTER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:showProducts();">WOMAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:showProducts();">MAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:showProducts();">SHOES AND BAGS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:showProducts();">ACCESSORIES</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <button
+                        class="btn nav-link shadow-none dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        + INFO
+                    </button>
+                    <div class="dropdown-menu bg-dark shadow-none border-0" aria-labelledby="dropdownMenu">
+                        <div class="nav-item">
+                            <a class="nav-link p-2" href="#">NEWSLETTER</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link p-2" href="#">CONTACT US</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link p-2" href="#">ABOUT US</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link p-2" href="#">PRIVACY POLICY</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link p-2" href="#">TERMS OF USE</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-content container-fluid d-flex flex-row flex-wrap justify-content-center">
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirm-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-label">Do you want proceed to checkout?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    You can also continue to add more products to your basket.
+                </div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                        onClick="javascript:showProducts();">
+                        Continue
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary"
+                        onClick="javascript:showUserCart();">
+                        Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <div class="d-flex justify-content-center">
+            <h6>Copyright &copy; Colorful Hanger</h6>
+        </div>
+    </div>
+</body>
+</html>

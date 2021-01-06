@@ -1,0 +1,77 @@
+.navbar.fixed-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    z-index: 1030;
+}
+
+.navbar-toggler.navbar-left {
+    outline: none;
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 10px !important;
+        line-height: 0.2em !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .nav-link {
+        font-size: 10px !important;
+        line-height: 0.4em !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-link {
+        font-size: 12px !important;
+        line-height: 0.6em !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        font-size: 14px !important;
+        line-height: 0.8em !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-link {
+        font-size: 16px !important;
+        line-height: 1em !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar.fixed-left {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        right: auto;
+    }
+
+    .navbar.fixed-left .navbar-collapse {
+        flex-grow: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
+        width: 100%;
+    }
+}
+
+.page-content {
+    margin-top: 70px;
+}
+
+.page-content > div > button {
+    outline: none;
+}

@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "name": "WHITE TROUSERS",
+    "price": 40.00,
+    "image": "images/photography-of-a-woman-sitting-on-chair-1070030.jpg"
+}, {
+    "id": 2,
+    "name": "WHITE AND BLUE WITH FLOWERS JACKET",
+    "price": 50,
+    "image": "images/woman-in-blue-and-white-jacket-and-blue-dress-pants-818992.jpg"
+}, {
+    "id": 3,
+    "name": "LIGHT PINK WITH FLOWERS SWEATER",
+    "price": 35.80,
+    "image": "images/woman-in-peach-color-and-red-floral-sweatshirt-holding-gray-794062.jpg"
+}, {
+    "id": 4,
+    "name": "PINK SWEATER",
+    "price": 46.89,
+    "image": "images/woman-in-sweater-and-pants-taking-selfie-with-white-885580.jpg"
+}, {
+    "id": 5,
+    "name": "SLEEVED DRESS",
+    "price": "56.89",
+    "image": "images/woman-wearing-black-and-white-long-sleeved-derss-833185.jpg"
+}, {
+    "id": 6,
+    "name": "BROWN JACKET",
+    "price": 33.90,
+    "image": "images/woman-wearing-black-coat-holding-brown-jacket-1457983.jpg"
+}, {
+    "id": 7,
+    "name": "BLACK AND WHITE SWEATSHIRT",
+    "price": 67.70,
+    "image": "images/woman-wearing-sunglasses-sits-on-sofa-inside-the-room-965918.jpg"
+}, {
+    "id": 8,
+    "name": "WHITE AND BLACK SHIRT",
+    "price": 44.66,
+    "image": "images/woman-wearing-white-and-black-shirt-1388888.jpg"
+}]
